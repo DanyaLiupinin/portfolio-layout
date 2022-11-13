@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    display: block;
+}
+
+.page__container {
+    max-width: 1445px;
+}
+
+.header {
+    min-height: 88px;
+    max-width: 940px;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 33px;
+}
+
+.header__menu-item {
+    text-decoration: none;
+    color: black;
+}

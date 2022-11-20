@@ -10,7 +10,6 @@ body {
 
 
 .page__container {
-    max-width: 1445px;
     margin: 0 auto;
 }
 
@@ -37,7 +36,7 @@ body {
 }
 
 .lead {
-    height: 680px;
+    min-height: 680px;
     border: 1px solid black;
     margin-top: 40px;
 }
@@ -49,7 +48,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    
+
     margin: 0 auto;
     border: 1px solid red;
 }
@@ -87,4 +86,41 @@ body {
 .lead__photo {
     display: block;
     margin: 50px auto 0;
+}
+
+.about {
+    min-height: 506px;
+    background-color: #F6F6F6;
+}
+
+.about__text {
+    outline: 1px solid red;
+    min-width: 425px;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 120px 0 107px;
+    text-align: center;
+}
+
+.about__title {
+    color: black;
+    margin: 0 auto 18px;
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 34px;
+}
+
+.about__description {
+    margin: 0;
+    max-width: 480px;
+    margin: 0 auto;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.about__description:not(:first-child) {
+    margin-top: 25px;
 }

@@ -1,3 +1,4 @@
+/*
 body {
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     display: block;
 }
 
+*/
 
 .page__container {
     margin: 0 auto;
@@ -99,7 +101,10 @@ body {
     display: block;
     margin: 50px auto 0;
     max-width: 945px;
-    height: auto;
+    background-image: url('./images/leadphoto.png');    
+    width: 100%;
+    min-height: 200px;
+    height: 387px;
 }
 
 
@@ -187,6 +192,10 @@ body {
     align-items: center;
 }
 
+.skills__image {
+    display: block;
+}
+
 .skills__soft {
     display: flex;
     flex-direction: row;
@@ -200,10 +209,11 @@ body {
     font-family: Gilroy;
     font-weight: 400;
     font-size: 14px;
-    line-height: 14px; 
+    line-height: 14px;
     color: #828282;
     text-align: center;
     margin: 23px 0 0;
+    min-height: 28px;
 }
 
 .skills__rating {
@@ -233,10 +243,71 @@ body {
 }
 
 .portfolio__image {
-    width: auto;
+    max-width: 930px;
+    width: 100%;
 }
 
 .portfolio__link {
     margin-top: 45px;
     color: black;
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: white;
+    align-items: center;
+}
+
+.footer__title {
+    font-family: Golroy;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 34px;
+    padding-top: 115px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.footer__description {
+    margin: 20px auto 0;
+    width: fit-content;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.footer__button {
+    margin: 60px auto 0;
+    background-color: black;
+    color: white;
+    border: none;
+    display: block;
+    min-width: 180px;
+    min-height: 42px;
+    border-radius: 25px;
+}
+
+.footer__socials {
+    margin: 65px auto 0;
+    max-width: 342px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__caption {
+    width: fit-content;
+    text-align: center;
+    margin: 45px auto 120px;
+    font-family: Gilroy;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
 }

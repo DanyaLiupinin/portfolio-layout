@@ -1,0 +1,7 @@
+.lead__languages {
+    display: flex;
+    flex-direction: row;
+    padding: 82px 0 0 0;
+    transform: rotate(-90deg);
+}
+

@@ -2,8 +2,9 @@
     display: block;
     margin: 50px auto 0;
     max-width: 945px;
-    background-image: url('../../../images/leadphoto.png');    
+    background-image: url('../../../images/leadphoto2.jpg');    
     width: 100%;
     min-height: 200px;
     height: 387px;
+    background-size: cover;
 }

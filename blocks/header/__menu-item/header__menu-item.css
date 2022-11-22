@@ -2,4 +2,9 @@
 .header__menu-item {
     text-decoration: none;
     color: black;
+    transition: opacity 0.2s ease-in;
+}
+
+.header__menu-item:hover {
+    opacity: .5;
 }

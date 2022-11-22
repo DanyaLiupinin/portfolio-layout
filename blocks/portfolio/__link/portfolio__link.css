@@ -4,4 +4,9 @@
     font-family: Gilroy;
     font-size: 18px;
     line-height: 22px;
+    transition: opacity 0.2s ease-in;
+}
+
+.portfolio__link:hover {
+    opacity: .5;
 }

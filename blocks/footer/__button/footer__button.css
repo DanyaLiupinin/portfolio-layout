@@ -7,4 +7,10 @@
     min-width: 180px;
     min-height: 42px;
     border-radius: 25px;
+    transition: opacity 0.2s ease-in;
+}
+
+.footer__button:hover {
+    opacity: .7;
+    cursor: pointer ;
 }

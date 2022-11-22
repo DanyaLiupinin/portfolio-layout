@@ -9,7 +9,9 @@
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__info/lead__info.css);
+@import url(../blocks/lead/__languages/lead__languages.css);
 @import url(../blocks/lead/__language/lead__language.css);
+@import url(../blocks/lead/__language/_active/lead__language_active.css);
 @import url(../blocks/lead/__name/lead__name.css);
 @import url(../blocks/lead/__photo/lead__photo.css);
 @import url(../blocks/lead/__profession/lead__profession.css);
@@ -40,4 +42,5 @@
 @import url(../blocks/footer/__caption/footer__caption.css);
 @import url(../blocks/footer/__description/footer__description.css);
 @import url(../blocks/footer/__socials/footer__socials.css);
+@import url(../blocks/footer/__social/footer__social.css);
 @import url(../blocks/footer/__title/footer__title.css);

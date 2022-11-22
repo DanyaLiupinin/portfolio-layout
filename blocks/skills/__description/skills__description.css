@@ -1,0 +1,10 @@
+.skills__description {
+    margin: 0;
+    max-width: 480px;
+    margin: 70px auto 0;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    width: fit-content;
+}

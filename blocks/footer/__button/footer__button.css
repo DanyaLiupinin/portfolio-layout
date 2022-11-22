@@ -1,0 +1,10 @@
+.footer__button {
+    margin: 60px auto 0;
+    background-color: black;
+    color: white;
+    border: none;
+    display: block;
+    min-width: 180px;
+    min-height: 42px;
+    border-radius: 25px;
+}

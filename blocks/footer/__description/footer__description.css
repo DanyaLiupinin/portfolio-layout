@@ -1,0 +1,8 @@
+.footer__description {
+    margin: 20px auto 0;
+    width: fit-content;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 22px;
+}

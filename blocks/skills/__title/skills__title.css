@@ -1,0 +1,9 @@
+.skills__title {
+    margin: 0 auto;
+    padding-top: 90px;
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 34px;
+    width: fit-content;
+}

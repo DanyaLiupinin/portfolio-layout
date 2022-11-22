@@ -1,1 +1,43 @@
+@import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
+
+@import url(../blocks/page/__container/page__container.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__info/lead__info.css);
+@import url(../blocks/lead/__language/lead__language.css);
+@import url(../blocks/lead/__name/lead__name.css);
+@import url(../blocks/lead/__photo/lead__photo.css);
+@import url(../blocks/lead/__profession/lead__profession.css);
+
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__description/about__description.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__title/about__title.css);
+
+@import url(../blocks/skills/skills.css);
+@import url(../blocks/skills/__description/skills__description.css);
+@import url(../blocks/skills/__image/skills__image.css);
+@import url(../blocks/skills/__program-name/skills__program-name.css);
+@import url(../blocks/skills/__program/skills__program.css);
+@import url(../blocks/skills/__rating/skills__rating.css);
+@import url(../blocks/skills/__soft/skills__soft.css);
+@import url(../blocks/skills/__text/skills__text.css);
+@import url(../blocks/skills/__title/skills__title.css);
+
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__case/portfolio__case.css);
+@import url(../blocks/portfolio/__image/portfolio__image.css);
+@import url(../blocks/portfolio/__link/portfolio__link.css);
+@import url(../blocks/portfolio/__title/portfolio__title.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__button/footer__button.css);
+@import url(../blocks/footer/__caption/footer__caption.css);
+@import url(../blocks/footer/__description/footer__description.css);
+@import url(../blocks/footer/__socials/footer__socials.css);
+@import url(../blocks/footer/__title/footer__title.css);

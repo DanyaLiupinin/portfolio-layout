@@ -1,0 +1,13 @@
+.about__description {
+    margin: 0;
+    max-width: 480px;
+    margin: 0 auto;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.about__description:not(:first-child) {
+    margin-top: 25px;
+}
